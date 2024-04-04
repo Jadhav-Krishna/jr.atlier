@@ -164,3 +164,55 @@ html,body{
     background-position: center;
     background-size: cover;
 }
+#page3{
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+#page3 #top{
+    height: 55%;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    /* background: #000; */
+    align-items: center;
+    justify-content: space-around;
+}
+#page3 #top h1{
+    font-size: 10vw;
+    font-family: jrhead;
+    color: #BB7F7B;
+}
+#page3 #top h2{
+    width: 80%;
+    font-size: 3vw;
+    font-family: jrhead;
+}
+#page3 #top #bold{
+    font-family: jrbold;
+    letter-spacing: 0.2vw;
+}
+#page3 #bottom{
+    margin-top: 5%;
+    height: 35%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page3 #bottom p{
+    width: 40%;
+    font-family: jrnormal;
+    font-size: 1.1vw;
+}
+#page3 #bottom h5{
+    font-size: 1.5vw;
+    font-family: jrbold;
+}
+#page3 #bottom button{
+    color: #BB7F7B;
+    padding: 1vw;
+    background-color: rgb(235, 217, 215);
+    border: 1px solid  #bf7b76;
+}
