@@ -355,3 +355,11 @@ html,body{
     background-size: cover;
     border-radius: 20px;
 }
+#page5 .pinpage{
+    padding: 5vw;
+}
+#page5 .pinpage h1{
+    color: white;
+    font-size: 12vw;
+    font-family: jrhead;
+}
