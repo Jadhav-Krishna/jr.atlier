@@ -88,11 +88,16 @@ html,body{
     overflow: hidden;
 }
 #page1 #head1{
+    overflow: hidden;
     display: flex;
     align-items: center;
     gap: 5vw;
 }
+#page1 #head1 div{
+    display: flex;
+}
 #page1 #head2{
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -119,6 +124,7 @@ html,body{
     object-fit: cover;
 }
 #page1 #head3{
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,7 +156,7 @@ html,body{
     transition: all ease 1s;
 }
 #page2{
-    height: 180vh;
+    height: 150vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -179,6 +185,12 @@ html,body{
     align-items: center;
     justify-content: space-around;
 }
+#page3 #top img{
+    left: -9%;
+    top: -50%;
+    position: absolute;
+    scale: 0.3;
+}
 #page3 #top h1{
     font-size: 10vw;
     font-family: jrhead;
@@ -201,6 +213,12 @@ html,body{
     align-items: center;
     justify-content: space-around;
 }
+#page3 #bottom img{
+    right: -13%;
+    top: -15%;
+    position: absolute;
+    scale: 0.5;
+}
 #page3 #bottom p{
     width: 40%;
     font-family: jrnormal;
@@ -211,8 +229,129 @@ html,body{
     font-family: jrbold;
 }
 #page3 #bottom button{
+    /* text-align: center; */
     color: #BB7F7B;
-    padding: 1vw;
+    font-size: 2vw;
+    font-weight: 500;
+    padding: 0.7vw 2.5vw;
+    border-radius: 50px;
     background-color: rgb(235, 217, 215);
     border: 1px solid  #bf7b76;
+}
+#page4{
+    height: 150vh;
+    width: 100vw;
+    /* background: #000; */
+}
+#page4 #fonts{
+    margin-top: 20vh;
+    height: 120vh;
+    width: 100vw;
+    padding: 5vw;
+    position: relative;
+}
+#page4 #fonts h1{
+    font-size: 11vw;
+    font-family: jrthin;
+    line-height: 12vw;
+}
+#page4 #fonts h1:nth-child(2){
+    margin-left: 40vw;
+    position: absolute;
+    z-index: 1;
+}
+#page4 #fonts h1:nth-child(3){
+    margin-top: 20vh;
+}
+#page4 #fonts h1:nth-child(5){
+    margin-top: 20vh;
+    margin-left: 43vw;
+}
+#page4 #fonts h1:nth-child(4){
+    /* background: #000; */
+    position: absolute;
+    z-index: 1;
+}
+#page4 #fonts #circle{
+    top: 30%;
+    left: -20%;
+    z-index: 0;
+    position: absolute;
+}
+#page4 #fonts #orange{
+    top: 0;
+    right: -15%;
+    position: absolute;
+    z-index: 0;
+}
+#page5{
+    height: 130vh;
+    width: 100vw;
+    position: relative;
+    background: rgb(243, 234, 217);
+}
+#page5 #top #row{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    gap: 3vw;
+    white-space: nowrap;
+    flex-direction: row;
+    animation: rowanime 10s linear infinite;
+}
+#page5 #top #row h1{
+    font-size: 10vw;
+    font-family: jrthin;
+}
+@keyframes rowanime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+#page5 #pinpage1{
+    margin-top: 50%;
+    height: 90vh;
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+    background-image: url(./Fruits_at_home.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#page5 #pinpage2{
+    margin-top: 50%;
+    height: 90vh;
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+    background-image: url(./Identite_Visuelle_arteck.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#page5 #pinpage3{
+    margin-top: 50%;
+    height: 90vh;
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+    background-image: url(./charte_moduleo.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#page5 #pinpage4{
+    margin-top: 50%;
+    height: 90vh;
+    width: 90vw;
+    left: 5vw;
+    position: absolute;
+    background-image: url(./Office-Concept.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
 }
