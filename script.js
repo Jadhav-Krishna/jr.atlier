@@ -1,3 +1,4 @@
+let tl = gsap.timeline()
 function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -42,6 +43,22 @@ function locomotive() {
 }
 locomotive();
 
+function loader(){
+  tl.to("#loader",{
+    y:"-100vh",
+    delay:3.5,
+    duration:1
+  })
+  let lbg = document.querySelector("#lbg");
+  setTimeout(function(){
+    lbg.setAttribute("src","./pink.png")
+  },1000);
+  setTimeout(function(){
+    lbg.setAttribute("src","./orange.png")
+  },2000);
+}
+// loader();
+
 function background() {
   let bg = document.querySelector("#bg");
   let backg = document.querySelector("#backg");
@@ -59,10 +76,11 @@ function background() {
 background();
 
 function anime() {
-  gsap.from("#page1 h1", {
+  // let loader = document.querySelector("#loader");
+  
+  tl.from("#page1 h1", {
     y: -250,
     duration: 1,
-    delay: 1,
     stagger: 0.1,
   });
 

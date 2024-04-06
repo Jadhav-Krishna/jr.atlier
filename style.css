@@ -36,6 +36,10 @@ html,body{
     }
     
 }
+#loader svg{
+    position: absolute;
+
+}
 #nav{
     height: 11vh;
     width: 100%;
@@ -362,4 +366,54 @@ html,body{
     color: white;
     font-size: 12vw;
     font-family: jrhead;
+}
+#page5 svg{
+    animation: rotate 10s linear infinite;
+}
+#page6 h1{
+    font-family: jrnormal;
+    font-size: 5vw;
+}
+#page6 h6{
+    font-family: jrbold;
+    font-size: 2vw;
+    font-weight: 500;
+}
+#page6 p{
+    font-size: 1.1vw;
+}
+#page6 button{
+    color: #BB7F7B;
+    font-size: 2vw;
+    font-weight: 500;
+    padding: 0.7vw 1vw;
+    border-radius: 50px;
+    background-color: rgb(235, 217, 215);
+    border: 1px solid  #bf7b76;
+}
+#page7 h1{
+    font-family: jrthin;
+    font-size: 11vw;
+    line-height: 12vw;
+    z-index: 3;
+}
+#page7 :nth-child(2){
+    margin-left: 35vw;
+}
+#page7 :nth-child(4){
+    margin-left: 30vw;
+}
+#page7 :nth-child(6){
+    margin-left: 30vw;
+}
+#page7 img{
+    position: absolute;
+}
+#page7 #pink{
+    top: 30vh;
+    left: -15vw;
+}
+#page7 #orange{
+    top: 10vh;
+    right: -21vw;
 }
