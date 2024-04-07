@@ -1,4 +1,4 @@
-let tl = gsap.timeline()
+let tl = gsap.timeline();
 function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -57,7 +57,7 @@ function loader(){
     lbg.setAttribute("src","./orange.png")
   },2000);
 }
-// loader();
+loader();
 
 function background() {
   let bg = document.querySelector("#bg");
@@ -134,3 +134,17 @@ function anime() {
   });
 }
 anime();
+
+function sheryx(){
+  Shery.hoverWithMediaCircle("#img-hover1","#img-hover2","#img-hove3","#img-hover4",/* Element to target.*/ {
+    images: ["img1.webp", "img2.webp", "img3.webp","img4.webp"],
+  });
+  // Shery.mouseFollower({
+  //   //Parameters are optional.
+  //   skew: true,
+  //   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  //   duration: 1,
+  // });
+  Shery.mouseFollower();
+}
+sheryx();

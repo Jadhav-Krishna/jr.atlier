@@ -54,9 +54,20 @@ html,body{
 #nav #n2{
     align-items: center;
     display: flex;
-    gap: 4vh;
+    gap: 2vh;
     font-family: jrbold;
     font-size: 2vh;
+}
+#nav #n2 a{
+    padding: 0.5vh 1vw;
+    border-radius: 50px;
+    transition: all ease 0.7s;
+}
+#nav #n2 a:hover{
+    padding: 0.5vh 1vw;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
 }
 #nav i{
     font-size: 3.5vh;
@@ -404,10 +415,11 @@ html,body{
     margin-left: 30vw;
 }
 #page7 :nth-child(6){
-    margin-left: 30vw;
+    margin-left: 28vw;
 }
 #page7 img{
     position: absolute;
+    z-index: -1;
 }
 #page7 #pink{
     top: 30vh;
@@ -415,5 +427,28 @@ html,body{
 }
 #page7 #orange{
     top: 10vh;
-    right: -21vw;
+    right: -15vw;
+}
+/* #page8{
+    
+} */
+#page8{
+    background: rgb(243, 234, 217);
+}
+#page8 #hr{
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+#page8 h1{
+    font-size: 7vw;
+    font-family: jrhead;
+}
+#page8 h5{
+    font-size: 2vw;
+    font-family: jrnormal;
+}
+#page9{
+    background: rgb(243, 234, 217);
 }

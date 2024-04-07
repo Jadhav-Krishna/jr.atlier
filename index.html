@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Art , heart , matter</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -13,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div id="loader" class="fixed hidden flex items-center justify-center z-10 h-screen w-screen bg-white">
+    <div id="loader" class="fixed  flex items-center justify-center z-10 h-screen w-screen bg-white">
       <img id="lbg" src="./circle.png" alt="">
       <svg
       class="absolute"
@@ -279,7 +280,7 @@
           </div>
         </div>
       </div>
-      <div id="page2">
+      <div id="page2" class="hidden">
         <div id="balloon"></div>
       </div>
       <div id="page3">
@@ -403,15 +404,30 @@
         <p class="w-1/2 ml-[25%]">Le résultat ? Des marques incroyables, qui nous comblent d’émotions fortes et s’inscrivent dans le monde qui nous entoure.</p>
         <button class="w-[40%] ml-[29%]">PROJECT REFRENCES TO THRILLS</button>
       </div>
-      <div id="page7" class="h-[150vh] w-screen relative p-20 bg-zinc-500">
+      <div id="page7" class="h-[150vh] w-screen relative p-20">
         <h1>Behind</h1>
         <h1>each brand,</h1>
         <h1>there is a story</h1>
         <h1>unique to tell,</h1>
         <h1>for better</h1>
         <h1>communicate.</h1>
-        <img id="pink" src="./pink.png" alt="">
-        <img id="orange" src="./orange.png" alt="">
+        <img data-scroll data-scroll-speed="5" id="pink" src="./pink.png" alt="">
+        <img data-scroll data-scroll-speed="3" id="orange" src="./orange.png" alt="">
+      </div>
+      <div id="page8" class="h-[120vh] w-screen text-center relative flex align-center justify-around flex-col p-[5vw]">
+        <h5>OUR KNOW-HOW AT YOUR SERVICE</h5>
+        <div id="hr"></div>
+        <h1 id="img-hover1">Consulting & Strategy</h1>
+        <div id="hr"></div>
+        <h1 id="img-hover2">Design & Universe</h1>
+        <div id="hr"></div>
+        <h1 id="img-hover3">Tools & Combinations</h1>
+        <div id="hr"></div>
+        <h1 id="img-hover4">Staging & Light</h1>
+        <div id="hr"></div>
+      </div>
+      <div id="page9" class="h-screen w-screen relative ">
+
       </div>
     </div>
 
@@ -429,10 +445,12 @@
 
 
 
-
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
