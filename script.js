@@ -57,7 +57,7 @@ function loader(){
     lbg.setAttribute("src","./orange.png")
   },2000);
 }
-loader();
+// loader();
 
 function background() {
   let bg = document.querySelector("#bg");

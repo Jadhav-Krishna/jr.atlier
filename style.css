@@ -38,7 +38,6 @@ html,body{
 }
 #loader svg{
     position: absolute;
-
 }
 #nav{
     height: 11vh;
@@ -451,4 +450,32 @@ html,body{
 }
 #page9{
     background: rgb(243, 234, 217);
+}
+#page9 #left h2{
+    font-family: jrnormal;
+    font-size: 3.7vw;
+}
+#page9 #right h5{
+    font-family: jrnormal;
+}
+#page9 #right span{
+    font-weight: bolder;
+}
+#page9 #right .line{
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+#page9 #right h4{
+    font-size: 1vw;
+    font-weight: 750;
+    color: #000000d2;
+}
+#page9 button{
+    font-size: 1vw;
+    width: 50%;
+    font-weight: 700;
+    padding: 1.5vw;
+    border-radius: 50px;
+    background-color: #E7B36F;
 }
