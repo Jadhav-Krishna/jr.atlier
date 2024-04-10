@@ -484,18 +484,50 @@ html,body{
     width: 40vw;
     overflow: hidden;
     object-fit: cover;
+    object-position: center;
     border-radius: 50%;
 }
 #page10 #circle1 img{
-    margin-top: -5vw;
 height: 60vw;
 width: 40vw;
 }
 #page10 #circle2{
     margin-top: 5vw;
     margin-left: -10vw;
+    z-index: 3;
     background-color: #e7c8a1;
 }
 #page10 #circle2 h5{
     color: #bf7b76;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+#page10 #circle2 h2{
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #000000b8;
+    font-family: jrbold;
+}
+#page10 #bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page10 .circlee{
+    height: 7vw;
+    width: 7vw;
+    z-index: 5;
+    border-radius: 50%;
+    background-color: #BB7F7B;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+#page10 #circlee6 img{
+    scale: 1.7;
+}
+#page10 #circlee8 img{
+    height: 85%;
+    scale: 1.3;
 }
