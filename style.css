@@ -479,3 +479,23 @@ html,body{
     border-radius: 50px;
     background-color: #E7B36F;
 }
+#page10 #circle1{
+    height: 40vw;
+    width: 40vw;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#page10 #circle1 img{
+    margin-top: -5vw;
+height: 60vw;
+width: 40vw;
+}
+#page10 #circle2{
+    margin-top: 5vw;
+    margin-left: -10vw;
+    background-color: #e7c8a1;
+}
+#page10 #circle2 h5{
+    color: #bf7b76;
+}
