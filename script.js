@@ -138,8 +138,7 @@ anime();
 function page10(){
   gsap.from("#circle1 img",{
     scale:0,
-    duration:0.5,
-    ease:"power1.inOut",
+    duration:1,
   })
   let icircle = document.querySelector("#icircle");
   let name = document.querySelector("#name");

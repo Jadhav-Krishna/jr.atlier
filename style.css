@@ -428,9 +428,6 @@ html,body{
     top: 10vh;
     right: -15vw;
 }
-/* #page8{
-    
-} */
 #page8{
     background: rgb(243, 234, 217);
 }
@@ -530,4 +527,285 @@ width: 40vw;
 #page10 #circlee8 img{
     height: 85%;
     scale: 1.3;
+}
+#menu{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    #loader svg{
+        scale: 0.5;
+    }
+    #nav #n2{
+        display: none;
+    }
+    #menu{
+        display:  block;
+    }
+    #mainbtn{
+        width: 75%;
+        font-size: 4vw;
+    }
+    #page1{
+        height: 75vh;
+        /* background-color: #bf7b76; */
+        padding: 5vw;
+    }
+    #page1 #head2{
+        height: 50vh;
+        gap: 5vh;
+        flex-direction: column-reverse;
+        margin-top: -16vh;
+    }
+    #page1 #head3{
+        margin-top: -40vh;
+    }
+    #page1 h1{
+        font-size: 15vw;
+        font-weight: bold;
+        color: #000000d1;
+    }
+    #page1 h6{
+        width: 40%;
+        font-size: 3vw;
+        font-weight: 700;
+        font-family: jrnormal;
+    }
+    #page2{
+        height: 50vh;
+    }
+    #page2 #balloon{
+        height: 30vh;
+    }
+    #page3{
+        height: 90vh;
+        /* background-color: #BB7F7B; */
+    }
+    #page3 #top img{
+        left: -30%;
+        top: 0;
+    }
+    #page3 #top h1{
+        font-size: 17vw;
+    }
+    #page3 #top h2{
+        width: 90%;
+        font-size: 4.2vw;
+        font-weight: 600;
+        color: #000000c5;
+    }
+    #page3 #top #bold{
+        font-size: 6vw;
+    }
+    #page3 #bottom img{
+        right: -30%;
+        top: 30%;
+    }
+    #page3 #bottom p{
+        width: 90%;
+        line-height: 4vw;
+        font-size: 2.89vw;
+    }
+    #page3 #bottom h5{
+        font-size: 5vw;
+    }
+    #page3 #bottom button{
+        font-size: 5vw;
+        font-weight: 500;
+        padding: 2vw 5vw;
+    }
+    #page3 #bottom{
+        height: 55%;
+    }
+    #page3 #top{
+        height: 45%;
+    }
+    #page4{
+        height: 70vh;
+    }
+    #page4 #fonts h1{
+        font-size: 15vw;
+        font-weight: 600;
+        color: #000000b6;
+        line-height: 12vw;
+    }
+    #page4 #fonts #circle{
+        top: 22%;
+        left: -25%;
+        scale: 0.7;
+    }
+    #page4 #fonts #orange{
+        top: 0;
+        right: -35%;
+        scale: 0.7;
+    }
+    #page4 #fonts h1:nth-child(2){
+        margin-top: 5vh;
+        margin-left: 25vw;
+    }
+    
+    #page4 #fonts h1:nth-child(5){
+        margin-top: 20vh;
+        margin-left: 25vw;
+    }
+    #page4 #fonts h1:nth-child(4){
+        margin-top: 7vh;
+    }
+    #page5{
+        height: 120vh;
+        width: 100vw;
+        margin-top: 10vh;
+        overflow: hidden;
+    }
+    #page5 #top #row{
+        height: 10vh;
+        gap: 5vw;
+    }
+    #page5 #top #row h1{
+        font-size: 15vw;
+        font-weight: 600;
+        color: #000000c0;
+    }
+    #page5 #pinpage1{
+        margin-top: 10vh;
+        height: 30vh;
+    }
+    #page5 #pinpage2{
+        margin-top: 45vh;
+        height: 30vh;
+    }
+    #page5 #pinpage3{
+        margin-top: 80vh;
+        height: 30vh;
+    }
+    #page5 #pinpage4{
+        margin-top: 115vh;
+        height: 30vh;
+    }
+    #page5 svg{
+        scale: 0.8;
+        margin-top: -5vh;
+        margin-left: -20vw;
+        animation: rotate 10s linear infinite;
+    }
+    #page6{
+        height: 85vh;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #page6 h1{
+        font-size: 10vw;
+        font-weight: 700;
+        color: #000000c9;
+    }
+    #page6 h6{
+        font-size: 6vw;
+        font-weight: 500;
+    }
+    #page6 p{
+        width: 100%;
+        font-size: 3.5vw;
+        margin-left: 0;
+    }
+    #page6 button{
+        margin: 0;
+        width: 80%;
+        color: #BB7F7B;
+        font-size: 4vw;
+        padding: 2vw 3vw;
+    }
+    #page7{
+        height: 85vh;
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #page7 h1{
+        font-size: 15vw;
+        font-weight: 600;
+        color: #000000c0;
+    }
+    #page7 :nth-child(2){
+        margin-left: 15vw;
+    }
+    #page7 :nth-child(4){
+        margin-left: 30vw;
+    }
+    #page7 :nth-child(6){
+        margin-left: 3vw;
+    }
+    #page7 img{
+        scale: 0.85;
+    }
+    #page7 #pink{
+        top: 35vh;
+        left: -25vw;
+    }
+    #page7 #orange{
+        top: 7vh;
+        right: -25vw;
+    }
+    #page8{
+        height: 90vh;
+    }
+    #page8 h1{
+        font-size: 9vw;
+        font-weight: 600;
+        color: #000000c0;
+    }
+    #page8 h5{
+        font-size: 7vw;
+        font-weight: 600;
+    }
+    #page9{
+        height: 90vh;
+        padding: 5vw;
+        flex-direction: column-reverse;
+    }
+    #page9 #right{
+        height: 90%;
+        width: 100%;
+    }
+    #page9 #left{
+        width: 100%;
+    }
+    #page9 h5{
+        width: 100%;
+    }
+    #page9 #right h4{
+        font-size: 5vw;
+    }
+    #page9 #left h2{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+    #page9 button{
+        font-size: 5vw;
+        width: 100%;
+    }
+    #page10 #circle1{
+        height: 90vw;
+        width: 90vw;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+    #page10 #circle1 img{
+    height: 100vw;
+    width: 90vw;
+    }
+    #page10 #circle2{
+        margin-top: -15vh;
+        height: 70vw;
+        width: 70vw;
+        z-index: 3;
+        background-color: #d38423;
+    }
+    #page10 #top{
+        align-items: center;
+        flex-direction: column;
+    }
 }
