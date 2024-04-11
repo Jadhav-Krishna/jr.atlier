@@ -269,19 +269,22 @@ html,body{
     font-family: jrthin;
     line-height: 12vw;
 }
-#page4 #fonts h1:nth-child(2){
+#page4 #fonts div{
+    overflow: hidden;
+}
+#page4 #fonts div:nth-child(2){
     margin-left: 40vw;
     position: absolute;
     z-index: 1;
 }
-#page4 #fonts h1:nth-child(3){
+#page4 #fonts div:nth-child(3){
     margin-top: 20vh;
 }
-#page4 #fonts h1:nth-child(5){
+#page4 #fonts div:nth-child(5){
     margin-top: 20vh;
     margin-left: 43vw;
 }
-#page4 #fonts h1:nth-child(4){
+#page4 #fonts div:nth-child(4){
     /* background: #000; */
     position: absolute;
     z-index: 1;
@@ -532,7 +535,6 @@ width: 40vw;
     display: none;
 }
 #page11{
-    background-color: #bf7b76;
     height: 50vh;
     width: 100vw;
     display: flex;
@@ -541,6 +543,48 @@ width: 40vw;
 }
 #page11 img{
     height: 4vw;
+}
+#page12{
+    height: 110vh;
+    width: 100vw;
+    color: white;
+    position: relative;
+    background-image: url(./page12.webp);
+    background-size: cover;
+    background-position: center;
+}
+#page12 #topp #t{
+    height: 30vh;
+    width: 100%;
+    font-size: 11vw;
+    gap: 3vw;
+    font-family: jrthin;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    animation: rowanime 10s linear infinite;
+}
+#page12  #middlee {
+    display: flex;
+    gap: 5vh;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+#page12  #middlee h2{
+    font-size: 3vw;
+    font-family: jrnormal;
+}
+#page12  #middlee p{
+    width: 50%;
+    font-size: 1.2vw;
+}
+#page12  #middlee svg{
+    animation: rotate 10s linear infinite;
+}
+#page12 #bottomm{
+    font-size: 1vw;
+    font-family: jrbold;
 }
 
 @media (max-width: 500px) {
@@ -562,14 +606,17 @@ width: 40vw;
         /* background-color: #bf7b76; */
         padding: 5vw;
     }
+    #page1 #head1{
+        margin-top: -5vh;
+    }
     #page1 #head2{
-        height: 50vh;
+        height: 55vh;
         gap: 5vh;
         flex-direction: column-reverse;
         margin-top: -16vh;
     }
     #page1 #head3{
-        margin-top: -40vh;
+        margin-top: -45vh;
     }
     #page1 h1{
         font-size: 15vw;
@@ -832,5 +879,43 @@ width: 40vw;
     }
     #page10 #circle2 p{
         font-size: 2.5vw;
+    }
+    #page11{
+        height: 30vh;
+        flex-direction: column;
+    }
+    #page11 img{
+        height: 7vh;
+        width: 40vw;
+    }
+    #page11 :nth-child(2){
+        display: none;
+    }
+    #page11 :nth-child(4){
+        display: none;
+    }
+    #page12{
+        height: 100vh;
+        width: 100vw;
+    }
+    #page12 #topp #t{
+        height: 25vh;
+        font-size: 25vw;
+        gap: 5vw;
+        animation: rowanime 5s linear infinite;
+    }
+    #page12  #middlee h2{
+        font-size: 10vw;
+    }
+    #page12  #middlee p{
+        width: 70%;
+        font-size: 3vw;
+    }
+    #page12 #bottomm{
+        padding-bottom: 5vh;
+        flex-direction: column;
+        gap: 1vh;
+        font-size: 4.5vw;
+        text-align: center;
     }
 }
