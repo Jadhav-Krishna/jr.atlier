@@ -329,7 +329,7 @@ html,body{
     }
 }
 #page5 #pinpage1{
-    margin-top: 50%;
+    margin-top: 55%;
     height: 90vh;
     width: 90vw;
     left: 5vw;
@@ -340,7 +340,7 @@ html,body{
     border-radius: 20px;
 }
 #page5 #pinpage2{
-    margin-top: 50%;
+    margin-top: 55%;
     height: 90vh;
     width: 90vw;
     left: 5vw;
@@ -351,7 +351,7 @@ html,body{
     border-radius: 20px;
 }
 #page5 #pinpage3{
-    margin-top: 50%;
+    margin-top: 55%;
     height: 90vh;
     width: 90vw;
     left: 5vw;
@@ -362,7 +362,7 @@ html,body{
     border-radius: 20px;
 }
 #page5 #pinpage4{
-    margin-top: 50%;
+    margin-top: 55%;
     height: 90vh;
     width: 90vw;
     left: 5vw;
@@ -409,6 +409,9 @@ html,body{
     font-size: 11vw;
     line-height: 12vw;
     z-index: 3;
+}
+#page7 div{
+    overflow: hidden;
 }
 #page7 :nth-child(2){
     margin-left: 35vw;
@@ -697,20 +700,20 @@ width: 40vw;
         right: -35%;
         scale: 0.7;
     }
-    #page4 #fonts h1:nth-child(2){
+    #page4 #fonts div:nth-child(2){
         margin-top: 5vh;
         margin-left: 25vw;
     }
     
-    #page4 #fonts h1:nth-child(5){
+    #page4 #fonts div:nth-child(5){
         margin-top: 20vh;
         margin-left: 25vw;
     }
-    #page4 #fonts h1:nth-child(4){
+    #page4 #fonts div:nth-child(4){
         margin-top: 7vh;
     }
     #page5{
-        height: 120vh;
+        height: 170vh;
         width: 100vw;
         margin-top: 10vh;
         overflow: hidden;

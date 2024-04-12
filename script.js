@@ -82,8 +82,8 @@ function greensocks() {
     stagger: 0.1,
   });
 
-  let screenWidth = window.innerWidth;
-  if (screenWidth > 500) {
+  // var screenWidth = window.innerWidth;
+  if (window.innerWidth > 500) {
     gsap.from("#page4 #fonts h1", {
       y: -200,
       duration: 1,
@@ -91,18 +91,21 @@ function greensocks() {
       scrollTrigger: {
         trigger: "#page4",
         scroller: "#main",
-        start: "top -100%",
+        start: "top 20%",
+        // markers:true,
       },
     });
-  } else {
+  } 
+  else{
     gsap.from("#page4 #fonts h1", {
       y: -200,
       duration: 1,
       stagger: 0.25,
       scrollTrigger: {
-        trigger: "#fonts",
+        trigger: "#page4",
         scroller: "#main",
-        start: "top -20%",
+        start: "top 50%",
+        // markers:true,
       },
     });
   }
@@ -111,9 +114,8 @@ greensocks();
 
 function anime() {
   // let loader = document.querySelector("#loader");
-
   gsap.to("#page5 #pinpage1", {
-    y: "-95vh",
+    y: "-100vh",
     scale: 0.85,
     scrollTrigger: {
       trigger: "#page5",
@@ -125,7 +127,7 @@ function anime() {
     },
   });
   gsap.to("#page5 #pinpage2", {
-    y: "-95vh",
+    y: "-100vh",
     scale: 0.85,
     scrollTrigger: {
       trigger: "#page5",
@@ -137,7 +139,7 @@ function anime() {
     },
   });
   gsap.to("#page5 #pinpage3", {
-    y: "-95vh",
+    y: "-100vh",
     scale: 0.85,
     scrollTrigger: {
       trigger: "#page5",
@@ -149,7 +151,7 @@ function anime() {
     },
   });
   gsap.to("#page5 #pinpage4", {
-    y: "-95vh",
+    y: "-100vh",
     scale: 0.85,
     scrollTrigger: {
       trigger: "#page5",
@@ -164,7 +166,7 @@ function anime() {
 let screenWidth = window.innerWidth;
 if (screenWidth > 500) {
   anime();
-}
+};
 
 function page10() {
   gsap.from("#circle1 img", {
